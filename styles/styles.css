@@ -24,10 +24,7 @@ nav {
     padding: 15px;
 }
 
-.stack {
-    min-height: 165px;
-}
-
-article {
-    min-height: 500px;
+.container {
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
 }
