@@ -1,0 +1,24 @@
+:root {
+    --blue: rgb(0, 179, 255);
+    --lime: rgb(155 207 11);
+    --mainColor: var(--lime);
+}
+
+body {
+    display: flex;
+    margin: 0 auto;
+    min-height: 100dvh;
+}
+
+nav {
+    background: rgb(213 232 212);
+    min-width: 200px;
+}
+
+.mainColor {
+    background: var(--mainColor);
+}
+
+.p15 {
+    padding: 15px;
+}
