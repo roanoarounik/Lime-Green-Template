@@ -5,14 +5,15 @@
 }
 
 body {
-    display: flex;
+    display: grid;
     margin: 0 auto;
+    font-weight: bold;
     min-height: 100dvh;
+    grid-template-columns: 200px 1fr;
 }
 
 nav {
     background: rgb(213 232 212);
-    min-width: 200px;
 }
 
 .mainColor {
@@ -21,4 +22,12 @@ nav {
 
 .p15 {
     padding: 15px;
+}
+
+.stack {
+    min-height: 165px;
+}
+
+article {
+    min-height: 500px;
 }
